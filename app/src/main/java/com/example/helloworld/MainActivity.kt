@@ -30,8 +30,9 @@ fun SimpleFilledTextFieldSample() {
     val scaffoldState = rememberScaffoldState()
     val scope = rememberCoroutineScope()
 
-    Scaffold(modifier = Modifier.fillMaxSize()
-    , scaffoldState = scaffoldState) {
+    Scaffold(
+        modifier = Modifier.fillMaxSize(), scaffoldState = scaffoldState
+    ) {
 
         Column(
             modifier = Modifier.fillMaxWidth(),
